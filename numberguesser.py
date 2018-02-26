@@ -3,8 +3,9 @@
 
 def main():
     print("Guess a number between 1 and 100")
-    RandomNumber = 35
-    found = flase        #flags variable to see if they guessed it
+    # RandomNumber = 35 this is done to check
+    RandomNumber = random.randint(1,100)
+    found = false        #flags variable to see if they guessed it
    
 
 
@@ -16,3 +17,5 @@ def main():
              print("Guess Lower!")
         else:
              print("Guess Higher!!!!!!!!!!")  
+if __name__ == '__main__':
+    main()
