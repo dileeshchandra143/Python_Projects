@@ -1,6 +1,6 @@
 #!/User/Bin/ env python
 # This is a guesser.py
-
+import random
 def main():
     print("Guess a number between 1 and 100")
     # RandomNumber = 35 this is done to check
